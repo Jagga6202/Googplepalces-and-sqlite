@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/merged/debug/layout/list_group.xml",
+        "source": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/src/main/res/layout/list_group.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/merged/debug/layout/need_item.xml",
+        "source": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/src/main/res/layout/need_item.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/merged/debug/layout/activity_new.xml",
+        "source": "/Users/ideafoundation/Documents/Test/ExpandableListView1/app/src/main/res/layout/activity_new.xml"
+    }
+]

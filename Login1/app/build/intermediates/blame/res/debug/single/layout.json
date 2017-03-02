@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/Login1/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/ideafoundation/Documents/Test/Login1/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/Login1/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/ideafoundation/Documents/Test/Login1/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/Login1/app/build/intermediates/res/merged/debug/layout/signup.xml",
+        "source": "/Users/ideafoundation/Documents/Test/Login1/app/src/main/res/layout/signup.xml"
+    }
+]

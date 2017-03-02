@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.getqueried.getqueried_android.profile.fragments.FindPeopleFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_find_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/standard_margin" />
+
+    <TextView
+        android:id="@+id/empty_view_find_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/follow_people"
+        android:visibility="gone" />
+
+</LinearLayout>
+

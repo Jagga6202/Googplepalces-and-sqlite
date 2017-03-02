@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- <android.support.v7.widget.SearchView
+         android:id="@+id/search"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:queryHint="Search"
+         app:iconifiedByDefault="false"
+         android:layout_marginTop="50dp"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/selectallbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Select all"/>
+
+        <Button
+            android:id="@+id/deselectallbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Deselect all"/>
+    </LinearLayout>
+    <!--<EditText android:id="@+id/inputSearch"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="Search "-->
+    <!--android:inputType="textVisiblePassword"-->
+    <!--android:layout_marginTop="50dp"/>-->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>

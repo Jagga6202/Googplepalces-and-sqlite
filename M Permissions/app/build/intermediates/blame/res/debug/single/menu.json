@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/M Permissions/app/build/intermediates/res/merged/debug/menu/menu_main2.xml",
+        "source": "/Users/ideafoundation/Documents/Test/M Permissions/app/src/main/res/menu/menu_main2.xml"
+    },
+    {
+        "merged": "/Users/ideafoundation/Documents/Test/M Permissions/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/ideafoundation/Documents/Test/M Permissions/app/src/main/res/menu/menu_main.xml"
+    }
+]

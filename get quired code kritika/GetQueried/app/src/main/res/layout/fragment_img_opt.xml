@@ -1,0 +1,512 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="7"
+              tools:context=".create_query.fragments.ImgOptQueryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="1"/>
+            <View
+                android:id="@+id/filter1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo1"
+                android:layout_alignLeft="@+id/imageView_option1"
+                android:layout_alignBottom="@id/imageView_option1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="2"/>
+
+            <View
+                android:id="@+id/filter2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo2"
+                android:layout_alignLeft="@+id/imageView_option2"
+                android:layout_alignBottom="@id/imageView_option2"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="3"/>
+
+            <View
+                android:id="@+id/filter3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo3"
+                android:layout_alignLeft="@+id/imageView_option3"
+                android:layout_alignBottom="@id/imageView_option3"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo4"
+                android:layout_alignLeft="@+id/imageView_option4"
+                android:layout_alignBottom="@id/imageView_option4"/>
+
+            <View
+                android:id="@+id/filter4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textInfo4"
+                android:layout_toEndOf="@+id/textInfo4" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="3"/>
+
+            <View
+                android:id="@+id/filter5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo5"
+                android:layout_alignLeft="@+id/imageView_option5"
+                android:layout_alignBottom="@id/imageView_option5"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo6"
+                android:layout_alignLeft="@+id/imageView_option6"
+                android:layout_alignBottom="@id/imageView_option6"/>
+
+            <View
+                android:id="@+id/filter6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textInfo6"
+                android:layout_toEndOf="@+id/textInfo6" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="3"/>
+
+            <View
+                android:id="@+id/filter7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo7"
+                android:layout_alignLeft="@+id/imageView_option7"
+                android:layout_alignBottom="@id/imageView_option7"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo8"
+                android:layout_alignLeft="@+id/imageView_option8"
+                android:layout_alignBottom="@id/imageView_option8"/>
+
+            <View
+                android:id="@+id/filter8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textInfo8"
+                android:layout_toEndOf="@+id/textInfo8" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="3"/>
+
+            <View
+                android:id="@+id/filter9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo9"
+                android:layout_alignLeft="@+id/imageView_option9"
+                android:layout_alignBottom="@id/imageView_option9"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo10"
+                android:layout_alignLeft="@+id/imageView_option10"
+                android:layout_alignBottom="@id/imageView_option10"/>
+
+            <View
+                android:id="@+id/filter10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textInfo10"
+                android:layout_toEndOf="@+id/textInfo10" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="3"/>
+
+            <View
+                android:id="@+id/filter11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo11"
+                android:layout_alignLeft="@+id/imageView_option11"
+                android:layout_alignBottom="@id/imageView_option11"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option12"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"
+                android:tag="4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo12"
+                android:layout_alignLeft="@+id/imageView_option12"
+                android:layout_alignBottom="@id/imageView_option12"/>
+
+            <View
+                android:id="@+id/filter12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/fullyTransparent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textInfo12"
+                android:layout_toEndOf="@+id/textInfo12" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

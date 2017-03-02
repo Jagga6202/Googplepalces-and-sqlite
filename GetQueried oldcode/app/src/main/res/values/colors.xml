@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA51</color>
+    <color name="colorPrimaryDark">#008840</color>
+    <color name="colorAccent">#F65C19</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteAlmost">#F0F4F1</color>
+
+    <color name="hintTextColor">#808080</color>
+
+    <color name="edit_text_border">#DBD9DA</color>
+    <color name="fb_signin_btn">#3b5999</color>
+    <color name="black">#000000</color>
+
+    <color name="blue">#3786A9</color>
+
+    <color name="transparentBlack">#AA111111</color>
+    <color name="fullyTransparent">#00000000</color>
+
+</resources>

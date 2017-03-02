@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/f5254c08b89701b6c4dfdc26ac74d3d67bd4ffeb/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0cbc871097fc8c9c0d470a2a84b6fa9e412fb8fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/173d3379d42c2c6362b77c95072c3b2d0ebf6291/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0f28f7ce4d5c5156c204f248d33d435074a9fa1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/af3edb68ddc8f442747e86e6c7b4b3a243a49885/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_670ce9408e0da845df9007f8235ed9753524d473.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/glide-3.7.0_b2cd753882f283ac3a1280bc5faa119898607471.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/16ed2726db092d7e0b9121631e4bdc14639437a7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_f6625755c75279097db913d1fdb8311e5632b209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_68e60053442af0caf85d23f0cdc94afdc365af4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/36acd135a0d50b2d0713e23ff3a516fbfeba1c10/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_9bb3e80c90fc2571cee412730c8d27bc23193d86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/okio-1.6.0_f0618d285c80ae534bcd03dd33a183a0cb8cad59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/628f78cfd42eb0700e75df4c4a230626c0a627a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_e46a73bdc74516c85d8eed877e06a18be5921364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/29063dd7df7edda42f14010f20b026856efeb0ad/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_e35079478bfbcdb68cb95aabe761a57176814588.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/ac004bbfaaaaaa7bc70e3db9df22816d20bf7143/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_5fbd56526d3556996d61b5125da829daec967cad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/16ed2726db092d7e0b9121631e4bdc14639437a7/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_816346c2401ec73f5b50cea6e666c1e6fdf5c436.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/gson-2.6.2_b78fec7fc30a525aa9eff5405b06755e57ce97b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/b35133a0a121ec26b97978a867a4e2cc034b34e2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_37df7897ed5a8a498a46d49d0990f468f2595943.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/59d745b51d28943050a1fabfe31731265a0147be/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_49900c7ded7e5647c54bbe45c07880e0a89a7b12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/59d745b51d28943050a1fabfe31731265a0147be/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_fca5b62919e7c629dffe80fef6b168755650b08f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/ac3342d823907b0047a0d6fb8ffb48570ef4f66d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_361f95d894a359c2e4ed0dd1719ab9a5becdc4e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/retrofit-2.0.2_bac659bea90b3d7319f863f39a98c4cfde4189c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0_a8e97a874765676ffa197a4fbc42730ab53ad520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.2_18891e29f37d8cb23c952d722b91b092a0d83b87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/173d3379d42c2c6362b77c95072c3b2d0ebf6291/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_44594660414ce37487d647e7ad7207464ef79982.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_19456c6e7fe930eae1657fd37ad968ce84df0306.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/16ff496115cf9778af3af41939afa046b1e3efe6/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a464ec3678d616c3636a206ccaa8effc106259c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/f5254c08b89701b6c4dfdc26ac74d3d67bd4ffeb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_3bc4aed4c7e9d116fca14f76f9a7c982da32133a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ideafoundation/.android/build-cache/16ff496115cf9778af3af41939afa046b1e3efe6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/ideafoundation/Documents/Test/Gmail/app/build/intermediates/pre-dexed/debug/classes_b36bb4f4141664efedcfd26d6ab08b5d34b78c2d.jar" />
+    </item>
+
+</items>

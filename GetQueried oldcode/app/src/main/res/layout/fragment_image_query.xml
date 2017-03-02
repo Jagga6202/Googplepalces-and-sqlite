@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".create_query.fragments.ImgOptQueryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option1"
+                android:tag="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images_query" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo1"
+                android:layout_alignLeft="@+id/imageView_option1"
+                android:layout_alignBottom="@id/imageView_option1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option2"
+                android:tag="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images_query" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo2"
+                android:layout_alignLeft="@+id/imageView_option2"
+                android:layout_alignBottom="@id/imageView_option2"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_option3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option3"
+                android:tag="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images_query" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo3"
+                android:layout_alignLeft="@+id/imageView_option3"
+                android:layout_alignBottom="@id/imageView_option3"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_option4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView_option4"
+                android:tag="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/whiteAlmost"
+                android:scaleType="centerCrop"
+                android:src="@drawable/images_query" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16pt"
+                android:id="@+id/textInfo4"
+                android:layout_alignLeft="@+id/imageView_option4"
+                android:layout_alignBottom="@id/imageView_option4"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_create_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_btn"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:text="Create Query"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

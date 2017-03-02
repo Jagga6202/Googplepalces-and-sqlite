@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+      <!--  <SeekBar
+            android:layout_marginTop="120dp"
+            android:id="@+id/customSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:rotation="270"
+            android:layout_marginBottom="120dp"
+            android:progressDrawable="@drawable/vertical_progressbar"/>-->
+       <!-- <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/customprogressbar"
+
+            android:progressDrawable="@drawable/progressbar_progress" />-->
+    <!--<SeekBar
+        android:layout_marginTop="120dp"
+        android:id="@+id/customSeekBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotation="270"
+         android:progressDrawable="@drawable/vertical_progressbar"
+        android:layout_marginBottom="120dp"
+       />-->
+    <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="250dp">
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+            android:id="@+id/mySeekBar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:progressDrawable="@drawable/vertical_progressbar"
+
+            app:seekBarRotation="CW270" /> <!-- Rotation: CW90 or CW270 -->
+    </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
+
+    <!--<com.getqueried.getqueried_android.utils.VerticalSeekBar
+        android:id="@+id/customSeekBar"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:progressDrawable="@drawable/vertical_progressbar"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="120dp"
+        />-->
+</RelativeLayout>

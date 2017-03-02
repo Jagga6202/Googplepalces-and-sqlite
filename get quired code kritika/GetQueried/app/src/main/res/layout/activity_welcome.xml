@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#E0E0E0"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:weightSum="9"
+        android:orientation="vertical"
+        >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            />
+        <LinearLayout
+            android:id="@+id/layoutDots"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dots_height"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0"
+            android:layout_marginBottom="@dimen/dots_margin_bottom"
+            android:gravity="center"
+            android:orientation="horizontal"></LinearLayout>
+        <Button
+            android:id="@+id/btn_facebooklogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@drawable/shape_login_btn"
+            android:drawableLeft="@drawable/facebook_icon"
+            android:drawableStart="@drawable/facebook_icon"
+            android:paddingBottom="8dp"
+            android:paddingEnd="32dp"
+            android:paddingRight="32dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="bottom"
+            android:text="@string/sign_in_with_fb"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_emaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:text="@string/connect_with_email" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="By connecting you agree to our " />
+    <TextView
+        android:id="@+id/termstext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:clickable="true"
+        android:autoLink="web"
+        android:textColor="@color/blue"
+        android:text="@string/Terms"
+        android:layout_marginBottom="2dp"/>
+</LinearLayout>
+</LinearLayout>

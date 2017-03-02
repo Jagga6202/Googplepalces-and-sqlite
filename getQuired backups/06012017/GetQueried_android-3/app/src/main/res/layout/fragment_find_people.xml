@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.getqueried.getqueried_android.profile.fragments.FindPeopleFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/fbfriends_layout"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/add_fb_friends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ADD FACEBOOK FRIENDS"
+            android:paddingRight="60dp"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_fb_icon"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:background="#4B6EA8"
+
+            />
+
+    </LinearLayout>
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/search_layout"
+        android:background="#CAC9CF"
+        android:orientation="vertical"
+        >
+
+    <EditText
+    android:id="@+id/search_people"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="Search People"
+    android:textColor="#CAC9CF"
+    android:textSize="14dp"
+    android:singleLine="true"
+    android:textAlignment="center"
+     android:background="@drawable/edit_background"
+   />
+
+    </LinearLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CAC9CF"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/edit_background"
+            >
+
+            <EditText
+                android:id="@+id/search_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Search People"
+                android:textSize="14dp"
+                android:singleLine="true"
+                android:textAlignment="center"
+
+                android:inputType="textNoSuggestions"
+                android:gravity="center"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_search_icon"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_find_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/standard_margin" />
+
+    <TextView
+        android:id="@+id/empty_view_find_people"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/follow_people"
+        android:visibility="gone" />
+
+</LinearLayout>
+

@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Fri Feb 10 16:57:30 IST 2017
+2.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+5.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/layout/list_group.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+2.set=ANDROID_RESOURCE
+10.set=ANDROID_RESOURCE
+10.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+4.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+7.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=11
+0.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/layout/need_item.xml
+5.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+8.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_new.xml
+4.set=ANDROID_RESOURCE
+6.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/layout/list_item.xml
+9.set=DEX
+9.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+10.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+1.set=ANDROID_RESOURCE
+7.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+2.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/menu/main.xml
+6.set=ANDROID_RESOURCE
+0.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+8.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/res/menu-v11/main.xml
+3.set=ANDROID_RESOURCE
+1.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_
+9.base=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+4.file=/Users/ideafoundation/Documents/Test/ExpandableListView1/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

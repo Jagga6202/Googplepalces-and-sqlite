@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AA51</color>
+    <color name="colorPrimaryDark">#008840</color>
+    <color name="colorAccent">#F65C19</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteAlmost">#F0F4F1</color>
+
+    <color name="hintTextColor">#808080</color>
+
+    <color name="edit_text_border">#DBD9DA</color>
+    <color name="fb_signin_btn">#3b5999</color>
+    <color name="black">#000000</color>
+    <color name="recycler_item">#73A1D4</color>
+
+    <color name="blue">#3786A9</color>
+
+    <color name="transparentBlack">#AA111111</color>
+    <color name="fullyTransparent">#00000000</color>
+    <color name="profiletabs">#ABADAA</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#DCDCDC</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#B8B8B8</color>
+    <color name="dot_dark_screen2">#B8B8B8</color>
+    <color name="dot_dark_screen3">#B8B8B8</color>
+    <color name="dot_dark_screen4">#B8B8B8</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#686868</color>
+    <color name="dot_light_screen2">#686868</color>
+    <color name="dot_light_screen3">#686868</color>
+    <color name="dot_light_screen4">#686868</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

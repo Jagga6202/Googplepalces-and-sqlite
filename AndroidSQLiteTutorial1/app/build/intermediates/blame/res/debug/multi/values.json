@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/ideafoundation/Documents/Test/AndroidSQLiteTutorial1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 79,
+                    "endOffset": 130
+                },
+                "from": {
+                    "file": "/Users/ideafoundation/Documents/Test/AndroidSQLiteTutorial1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 138,
+                        "endColumn": 79,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 135,
+                    "endColumn": 77,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "/Users/ideafoundation/Documents/Test/AndroidSQLiteTutorial1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 77,
+                        "endOffset": 132
+                    }
+                }
+            }
+        ]
+    }
+]
